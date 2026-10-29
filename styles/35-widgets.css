@@ -1,0 +1,67 @@
+/* ── Shared widgets: status, progress, covers, buttons, dots ── */
+.status { font: 500 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.status--active { color: var(--seal); }
+.status--paused { color: var(--muted); }
+.status--abandoned { color: var(--faint); }
+.status--done { color: var(--ink); }
+.status--plain { color: var(--muted); }
+
+.pct { font: 600 38px/1 var(--serif); color: var(--seal); }
+.pct small { font-size: .47em; }
+.bar { height: 6px; background: var(--track); }
+.bar-fill { height: 100%; background: var(--ink); }
+.ring {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: conic-gradient(var(--seal) 0 var(--pct), var(--track) 0);
+}
+.ring span {
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--paper-2);
+  font: 600 17px var(--serif);
+}
+
+.cover { display: block; width: 100%; object-fit: cover; }
+/* Drawn header: a red moon (placed per project via --mx/--my) over a dark ridge. */
+.cover--drawn {
+  --r: 46px;
+  display: flex;
+  align-items: flex-end;
+  padding: 12px 16px;
+  background:
+    linear-gradient(transparent 76%, #050404 76%),
+    radial-gradient(circle var(--r) at calc(var(--mx) - 1.5%) calc(var(--my) - 5%), rgba(255, 190, 170, .22), transparent 75%),
+    radial-gradient(circle var(--r) at var(--mx) var(--my), #cf4337 0 90%, rgba(184, 50, 42, .4) 100%, rgba(184, 50, 42, .12) 135%, transparent 175%),
+    var(--night);
+  border-bottom: 2px solid var(--seal);
+  color: var(--on-dark);
+  font: 600 17px/1.2 var(--serif);
+  letter-spacing: .04em;
+  overflow: hidden;
+}
+.cover--panel { height: 170px; }
+.cover--lead { aspect-ratio: 16 / 7; }
+.cover--lead.cover--drawn { --r: clamp(56px, 11vw, 120px); padding: clamp(14px, 3vw, 28px); font-size: clamp(20px, 3vw, 30px); }
+
+.note { font: italic 14px/1.5 var(--serif); color: var(--muted); border-left: 2px solid var(--rule); padding-left: 10px; }
+.marks { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.mark--done { color: var(--ink); }
+.mark--now { color: var(--seal); }
+.mark--todo { color: var(--faint); }
+
+.actions { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.btn { white-space: nowrap; padding: 10px 18px; font-size: 14px; border: 1px solid var(--ink); }
+.btn--seal { background: var(--seal); border-color: var(--seal); color: var(--on-dark); }
+.btn--seal:hover { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.btn--ink { background: var(--ink); color: var(--paper); }
+.btn--ink:hover { background: var(--seal); border-color: var(--seal); color: var(--on-dark); }
+.btn--line { color: var(--ink); }
+.btn--line:hover { background: var(--ink); color: var(--paper); }
+
+.dots { display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; padding: 10px var(--gutter) 8px; }
+.dot { width: 24px; height: 24px; padding: 0; border: 0; background: none; cursor: pointer; display: grid; place-items: center; }
+.dot::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); transition: background .2s; }
+.dot[aria-current="true"]::after { background: var(--seal); }

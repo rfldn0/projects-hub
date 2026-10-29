@@ -1,0 +1,1184 @@
+{
+  "site": {
+    "owner": "Victor Tabuni",
+    "github": "https://github.com/rfldn0",
+    "updated": "2026-10-29"
+  },
+  "projects": [
+    {
+      "id": "projects-hub",
+      "name": "Projects Hub",
+      "desc": "This site: a Rust static-site generator that turns one JSON file into a projects hub on GitHub Pages.",
+      "status": "Active",
+      "started": "Oct 2026",
+      "tags": [
+        "rust",
+        "static-site",
+        "github-pages"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Design direction and layout",
+          "done": true
+        },
+        {
+          "title": "Rust generator scaffold",
+          "done": true
+        },
+        {
+          "title": "Compile project data from vault notes and repos",
+          "done": true
+        },
+        {
+          "title": "Deploy via GitHub Pages static.yml workflow",
+          "done": false
+        },
+        {
+          "title": "Keep data in sync with new work",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-29",
+          "text": "Compiled data for every project from session notes and git history"
+        },
+        {
+          "date": "2026-10-29",
+          "text": "Scaffolded the Rust generator, design files and Pages workflow"
+        }
+      ]
+    },
+    {
+      "id": "career-ops",
+      "name": "Career Ops",
+      "desc": "A Claude Code pipeline that evaluates job postings and tailors CVs and cover letters as PDFs.",
+      "status": "Active",
+      "started": "May 2026",
+      "tags": [
+        "node",
+        "claude-code",
+        "automation",
+        "pdf"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Set up the open-source pipeline locally",
+          "done": true
+        },
+        {
+          "title": "Batch scan and evaluation runs",
+          "done": true
+        },
+        {
+          "title": "Personalized scoring profile and archetypes",
+          "done": true
+        },
+        {
+          "title": "Fact gate to keep CV claims accurate",
+          "done": true
+        },
+        {
+          "title": "Reusable cover-letter template",
+          "done": true
+        },
+        {
+          "title": "Windows-safe auto-update repair",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "text": "Batch evaluations with tailored CV and cover-letter PDFs"
+        },
+        {
+          "date": "2026-10-25",
+          "text": "Personalized the scoring profile and added a CV fact-gate whitelist"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Repaired a broken auto-update by restoring system scripts from upstream"
+        },
+        {
+          "date": "2026-06-30",
+          "text": "Saved a full scan + pipeline batch session"
+        },
+        {
+          "date": "2026-05-03",
+          "text": "First local setup of the pipeline"
+        }
+      ]
+    },
+    {
+      "id": "second-brain",
+      "name": "Second Brain",
+      "desc": "An Obsidian vault run with Claude Code: ingestion scripts, local-LLM processing and session handoffs.",
+      "status": "Active",
+      "started": "Jun 2026",
+      "tags": [
+        "obsidian",
+        "python",
+        "ollama",
+        "knowledge"
+      ],
+      "repo": "https://github.com/rfldn0/theWorld",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Ingestion scripts for YouTube, web and PDF",
+          "done": true
+        },
+        {
+          "title": "Local LLM processing via Ollama",
+          "done": true
+        },
+        {
+          "title": "/handoff and /resume session skills",
+          "done": true
+        },
+        {
+          "title": "Home MOC, Bases dashboards and theme",
+          "done": true
+        },
+        {
+          "title": "/lint and /sync hygiene automation",
+          "done": true
+        },
+        {
+          "title": "Develop remaining stub notes",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-28",
+          "text": "Handoff log passes ~90 session notes since June"
+        },
+        {
+          "date": "2026-09-06",
+          "text": "Hygiene scan; fixed broken triple-bracket wikilinks"
+        },
+        {
+          "date": "2026-08-17",
+          "text": "Added /lint and /sync automation; resolved 241 of 267 issues"
+        },
+        {
+          "date": "2026-07-23",
+          "text": "Homepage plugin, Home MOC and Bases dashboards"
+        },
+        {
+          "date": "2026-06-30",
+          "text": "Vault-wide wikilink and filename fix"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Built ingestion scripts and handoff/resume skills"
+        }
+      ]
+    },
+    {
+      "id": "yt-download",
+      "name": "YT Download",
+      "desc": "A small yt-dlp wrapper that downloads audio or video from a link via a custom shell command.",
+      "status": "Done",
+      "started": "Sep 2026",
+      "tags": [
+        "python",
+        "cli",
+        "yt-dlp"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Audio/video download script",
+          "done": true
+        },
+        {
+          "title": "PowerShell profile shortcut",
+          "done": true
+        },
+        {
+          "title": "Setup instructions in README",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-25",
+          "text": "Wrote setup instructions for the shell shortcut"
+        },
+        {
+          "date": "2026-09-06",
+          "text": "First working download script"
+        }
+      ]
+    },
+    {
+      "id": "research-bot",
+      "name": "Research Bot",
+      "desc": "A Discord bot that runs a multi-domain Claude Code research agent and posts the report as a PDF.",
+      "status": "Active",
+      "started": "Oct 2026",
+      "tags": [
+        "python",
+        "discord",
+        "claude-code",
+        "research"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Multi-domain research agent command",
+          "done": true
+        },
+        {
+          "title": "Discord bot runs research headlessly",
+          "done": true
+        },
+        {
+          "title": "PDF report upload, quiet hours, 20-min cap",
+          "done": true
+        },
+        {
+          "title": "Psychology and career research domains",
+          "done": true
+        },
+        {
+          "title": "Test the new domains end to end",
+          "done": false
+        },
+        {
+          "title": "Host on a VPS for 24/7 uptime",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-22",
+          "text": "Bot in daily use, producing several deep-research PDF reports"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Fixed CLI path bug; added psychology and career domains"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Built the Discord bot around the /research pipeline"
+        }
+      ]
+    },
+    {
+      "id": "ledger-os",
+      "name": "Ledger OS",
+      "desc": "Offline-first budget tracker as a Tauri 2 desktop app with tray, auto-start and local JSON storage.",
+      "status": "Active",
+      "started": "Sep 2026",
+      "tags": [
+        "rust",
+        "tauri",
+        "react",
+        "typescript"
+      ],
+      "repo": "https://github.com/rfldn0/ledger-os",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Offline-first React PWA",
+          "done": true
+        },
+        {
+          "title": "File-based storage via File System Access API",
+          "done": true
+        },
+        {
+          "title": "Tauri 2 desktop shell with tray and auto-start",
+          "done": true
+        },
+        {
+          "title": "README for the desktop app",
+          "done": true
+        },
+        {
+          "title": "Build the .msi installer",
+          "done": false
+        },
+        {
+          "title": "Hand-test tray, auto-start and persistence",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-20",
+          "text": "Rewrote README for the Tauri desktop app"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Migrated to a Tauri 2 desktop app (Rust)"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Added portable JSON file storage; removed seed data"
+        },
+        {
+          "date": "2026-09-26",
+          "text": "Initial commit from the design prototype"
+        }
+      ]
+    },
+    {
+      "id": "theworld-tracker",
+      "name": "theWorld",
+      "desc": "A study tracker and idle-world hub where a local LLM drafts new learning modules for you.",
+      "status": "Active",
+      "started": "Aug 2026",
+      "tags": [
+        "javascript",
+        "ollama",
+        "web",
+        "productivity"
+      ],
+      "repo": "https://github.com/rfldn0/trackers",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Static goal-tracker hub",
+          "done": true
+        },
+        {
+          "title": "Idle-world hub and tracker v2",
+          "done": true
+        },
+        {
+          "title": "Home garden scene and landing page",
+          "done": true
+        },
+        {
+          "title": "AI module creation with local Ollama",
+          "done": true
+        },
+        {
+          "title": "Night mode and WCAG 2.2 AA pass",
+          "done": true
+        },
+        {
+          "title": "v5 revamp without sidebar",
+          "done": true
+        },
+        {
+          "title": "Auto-generated module header images",
+          "done": false
+        },
+        {
+          "title": "Merge to main and host privately",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-10-07",
+          "text": "New pixel-planet logo, favicon and hosting plan"
+        },
+        {
+          "date": "2026-10-03",
+          "text": "Shipped the v5 revamp (R0-R8) and fixed an open redirect"
+        },
+        {
+          "date": "2026-10-02",
+          "text": "Night Sketchbook palette and WCAG 2.2 AA fixes"
+        },
+        {
+          "date": "2026-09-25",
+          "text": "AI module creation: research, plan, then a Workshop screen"
+        },
+        {
+          "date": "2026-09-23",
+          "text": "v3: home garden canvas and new landing page"
+        },
+        {
+          "date": "2026-08-14",
+          "text": "Visual overhaul matched to the portfolio theme"
+        }
+      ]
+    },
+    {
+      "id": "myportfolio",
+      "name": "Portfolio",
+      "desc": "A one-page portfolio told as a pixel-art night city, built with React and Vite.",
+      "status": "Done",
+      "started": "Jun 2026",
+      "tags": [
+        "react",
+        "vite",
+        "pixel-art",
+        "web"
+      ],
+      "repo": "https://github.com/rfldn0/myportfolio",
+      "demo": "https://myportfolio-vtabuni.vercel.app",
+      "milestones": [
+        {
+          "title": "Cyberpunk React + Flask prototype",
+          "done": true
+        },
+        {
+          "title": "Deploy on Vercel",
+          "done": true
+        },
+        {
+          "title": "Fully static content file",
+          "done": true
+        },
+        {
+          "title": "Night-city pixel redesign",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-28",
+          "text": "Night-city pixel redesign with modular components"
+        },
+        {
+          "date": "2026-06-22",
+          "text": "Made the site fully static and removed the admin panel"
+        },
+        {
+          "date": "2026-06-21",
+          "text": "First deploy to Vercel"
+        }
+      ]
+    },
+    {
+      "id": "linktree",
+      "name": "Linktree",
+      "desc": "A personal link page in a retro character-sheet style: static HTML and CSS, no JavaScript.",
+      "status": "Done",
+      "started": "Jul 2025",
+      "tags": [
+        "html",
+        "css",
+        "github-pages"
+      ],
+      "repo": "https://github.com/rfldn0/linktree",
+      "demo": "https://rfldn0.github.io/linktree/",
+      "milestones": [
+        {
+          "title": "First link page",
+          "done": true
+        },
+        {
+          "title": "Deploy to GitHub Pages",
+          "done": true
+        },
+        {
+          "title": "Character-sheet redesign",
+          "done": true
+        },
+        {
+          "title": "Compressed images and portfolio preview",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-28",
+          "text": "Swapped in the new portfolio screenshot"
+        },
+        {
+          "date": "2026-09-27",
+          "text": "Retro character-sheet redesign with no JavaScript"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Refreshed profile, photo and links"
+        },
+        {
+          "date": "2025-07-20",
+          "text": "First version"
+        }
+      ]
+    },
+    {
+      "id": "profile-readme",
+      "name": "Profile README",
+      "desc": "GitHub profile README built from generated pixel-HUD SVG panels with a Commit Invaders minigame.",
+      "status": "Done",
+      "started": "Aug 2025",
+      "tags": [
+        "svg",
+        "node",
+        "github-actions"
+      ],
+      "repo": "https://github.com/rfldn0/rfldn0",
+      "demo": "https://github.com/rfldn0",
+      "milestones": [
+        {
+          "title": "First profile README",
+          "done": true
+        },
+        {
+          "title": "Pixel HUD SVG generator script",
+          "done": true
+        },
+        {
+          "title": "Light and dark night mode",
+          "done": true
+        },
+        {
+          "title": "Commit Invaders workflow",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-27",
+          "text": "Night mode, new avatar and Commit Invaders minigame"
+        },
+        {
+          "date": "2026-09-27",
+          "text": "Pixel HUD redesign generated by a Node script"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Updated interests and quote"
+        },
+        {
+          "date": "2025-08-01",
+          "text": "First profile README"
+        }
+      ]
+    },
+    {
+      "id": "course-encryption",
+      "name": "Course Cipher",
+      "desc": "A course-code encryption lab program, later given a retro web front end served on localhost.",
+      "status": "Done",
+      "started": "Aug 2024",
+      "tags": [
+        "python",
+        "javascript",
+        "web"
+      ],
+      "repo": "https://github.com/rfldn0/courseEncryptionProgram",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Encrypt/decrypt lab program",
+          "done": true
+        },
+        {
+          "title": "Static web front end",
+          "done": true
+        },
+        {
+          "title": "Local server for the web UI",
+          "done": true
+        },
+        {
+          "title": "Real reverse lookup in decrypt",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-27",
+          "text": "Built a static web front end with a small Python server"
+        },
+        {
+          "date": "2024-08-18",
+          "text": "Original CS1110 lab program"
+        }
+      ]
+    },
+    {
+      "id": "study-os",
+      "name": "Study OS",
+      "desc": "A terminal study app over the vault: local-LLM flashcards, spaced review and note synthesis.",
+      "status": "Paused",
+      "note": "Built in one day in Sept 2026; end-to-end testing and full card generation were never finished.",
+      "started": "Sep 2026",
+      "tags": [
+        "python",
+        "textual",
+        "ollama",
+        "sqlite"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Four-agent architecture and SQLite schema",
+          "done": true
+        },
+        {
+          "title": "Textual TUI built (12 units)",
+          "done": true
+        },
+        {
+          "title": "First vault sync and review sessions",
+          "done": true
+        },
+        {
+          "title": "Cards for every note",
+          "done": false
+        },
+        {
+          "title": "Test the synthesis agent",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-20",
+          "text": "Built the app; indexed 166 notes and ran first reviews"
+        },
+        {
+          "date": "2026-09-20",
+          "text": "Designed the agents, schema and TUI screens"
+        }
+      ]
+    },
+    {
+      "id": "trading-agent",
+      "name": "Trading Agent",
+      "desc": "An autonomous paper-trading agent that researches, trades on a schedule and emails a daily digest.",
+      "status": "Paused",
+      "note": "Set up for paper trading in Sept 2026 but never ran a scheduled session; idle since.",
+      "started": "Jun 2026",
+      "tags": [
+        "python",
+        "ai",
+        "trading"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Architecture sketch",
+          "done": true
+        },
+        {
+          "title": "Paper-trading API connected",
+          "done": true
+        },
+        {
+          "title": "Research, trade and journal routines",
+          "done": true
+        },
+        {
+          "title": "Daily email digest",
+          "done": true
+        },
+        {
+          "title": "First live paper-trading session",
+          "done": false
+        },
+        {
+          "title": "Backtesting",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-20",
+          "text": "Built the bot, connected paper trading and email digest"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Captured the idea and architecture diagram"
+        }
+      ]
+    },
+    {
+      "id": "student-records",
+      "name": "Student Records",
+      "desc": "A serverless form and admin CLI that keeps a student group's member records up to date.",
+      "status": "Done",
+      "started": "Oct 2025",
+      "tags": [
+        "python",
+        "aws-lambda",
+        "dynamodb",
+        "web"
+      ],
+      "repo": "https://github.com/rfldn0/WMUStudentsUpdate",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Flask API on AWS Lambda + DynamoDB",
+          "done": true
+        },
+        {
+          "title": "Static form on GitHub Pages",
+          "done": true
+        },
+        {
+          "title": "Admin CLI and modular backend",
+          "done": true
+        },
+        {
+          "title": "Security hardening",
+          "done": true
+        },
+        {
+          "title": "Editorial redesign with light/dark themes",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-09-06",
+          "text": "Editorial redesign with light and dark themes"
+        },
+        {
+          "date": "2025-10-12",
+          "text": "Security hardening and deployment fix"
+        },
+        {
+          "date": "2025-10-08",
+          "text": "Admin panel and modular backend"
+        }
+      ]
+    },
+    {
+      "id": "learn-by-projects",
+      "name": "Learn by Projects",
+      "desc": "A pipeline that turns a topic into a learning module, tracker page and vault notes.",
+      "status": "Abandoned",
+      "note": "Only one module was made; the module-building idea moved into theWorld tracker.",
+      "started": "Aug 2026",
+      "tags": [
+        "claude-code",
+        "learning",
+        "markdown"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Pipeline operating manual",
+          "done": true
+        },
+        {
+          "title": "/learn-module skill",
+          "done": true
+        },
+        {
+          "title": "First module: basic networking",
+          "done": true
+        },
+        {
+          "title": "Register trackers in the hub",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-08-31",
+          "text": "Wrote the pipeline manual and a basic-networking module"
+        }
+      ]
+    },
+    {
+      "id": "registry-dbms",
+      "name": "Registry DBMS",
+      "desc": "A business-registry web app: React front end, Express + Prisma API, PostgreSQL and Redis.",
+      "status": "Paused",
+      "note": "Idle since late Aug 2026; next sprint (map view or charts) and cloud deployment are still open.",
+      "started": "Jul 2026",
+      "tags": [
+        "typescript",
+        "react",
+        "postgresql",
+        "redis"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Multi-agent Claude Code workflow",
+          "done": true
+        },
+        {
+          "title": "Prisma schema and REST API",
+          "done": true
+        },
+        {
+          "title": "Role-based auth and unit tests",
+          "done": true
+        },
+        {
+          "title": "Map view and owner self-registration",
+          "done": true
+        },
+        {
+          "title": "Redis token blocklist, lockout, email verify",
+          "done": true
+        },
+        {
+          "title": "Dashboard charts",
+          "done": false
+        },
+        {
+          "title": "Deploy with Docker on EC2",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-08-28",
+          "text": "Security hardening: token blocklist, login lockout, email verify"
+        },
+        {
+          "date": "2026-08-17",
+          "text": "Fixed auth bugs; added owner self-registration"
+        },
+        {
+          "date": "2026-08-11",
+          "text": "Live map view and create/edit modals"
+        },
+        {
+          "date": "2026-08-05",
+          "text": "Tester agent added 50+ backend unit tests"
+        },
+        {
+          "date": "2026-07-17",
+          "text": "Set up agent workflow, schema and first REST API"
+        }
+      ]
+    },
+    {
+      "id": "fifa-predictor",
+      "name": "FIFA Predictor",
+      "desc": "An XGBoost model that predicts World Cup match outcomes, with calibrated win/draw probabilities.",
+      "status": "Done",
+      "started": "Jul 2026",
+      "tags": [
+        "python",
+        "xgboost",
+        "machine-learning"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "End-to-end prediction notebook",
+          "done": true
+        },
+        {
+          "title": "Form, host and squad features",
+          "done": true
+        },
+        {
+          "title": "Optuna tuning and stage-split models",
+          "done": true
+        },
+        {
+          "title": "Calibrated probabilities (62.4%)",
+          "done": true
+        },
+        {
+          "title": "Retrain with 2026 results",
+          "done": true
+        },
+        {
+          "title": "Better draw recall",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-07-17",
+          "text": "Retrained with 2026 knockout results"
+        },
+        {
+          "date": "2026-07-16",
+          "text": "Regularisation sweep and calibration; 62.4% accuracy"
+        },
+        {
+          "date": "2026-07-16",
+          "text": "Rebuilt notebook into a full 34-cell model"
+        }
+      ]
+    },
+    {
+      "id": "django-notes",
+      "name": "Django Notes",
+      "desc": "A note-taking app with a Django REST API, JWT auth and a React front end.",
+      "status": "Abandoned",
+      "note": "A learning exercise with no work since mid-July 2026.",
+      "started": "Jul 2026",
+      "tags": [
+        "python",
+        "django",
+        "react",
+        "jwt"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Django + DRF project setup",
+          "done": true
+        },
+        {
+          "title": "JWT auth with SimpleJWT",
+          "done": true
+        },
+        {
+          "title": "React front end scaffold",
+          "done": true
+        },
+        {
+          "title": "Note CRUD end to end",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-07-14",
+          "text": "Started the React front end"
+        },
+        {
+          "date": "2026-07-10",
+          "text": "Set up Django, DRF and JWT auth"
+        }
+      ]
+    },
+    {
+      "id": "haul",
+      "name": "Haul",
+      "desc": "A game concept about delivering packages between realms, with random traits instead of classes.",
+      "status": "Abandoned",
+      "note": "Only a Unity scaffold and a design note exist; no work since July 2026.",
+      "started": "May 2025",
+      "tags": [
+        "unity",
+        "game-design",
+        "csharp"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Unity URP project",
+          "done": true
+        },
+        {
+          "title": "Core loop and trait system design",
+          "done": true
+        },
+        {
+          "title": "Playable delivery prototype",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-07-06",
+          "text": "Wrote the game design note and sketch"
+        },
+        {
+          "date": "2025-05-14",
+          "text": "Created the Unity project"
+        }
+      ]
+    },
+    {
+      "id": "starfry",
+      "name": "Starfry",
+      "desc": "A gamified AI trading station where pixel-art chef agents cook up trades; Next.js + Flask.",
+      "status": "Abandoned",
+      "note": "Stopped mid design implementation in June 2026 with no work since.",
+      "started": "Jun 2026",
+      "tags": [
+        "nextjs",
+        "flask",
+        "phaser",
+        "websockets"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Next.js and Flask scaffold",
+          "done": true
+        },
+        {
+          "title": "Mock WebSocket feed and stores",
+          "done": true
+        },
+        {
+          "title": "Core station view",
+          "done": true
+        },
+        {
+          "title": "Design implementation",
+          "done": false
+        },
+        {
+          "title": "Real market data and agents",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-06-20",
+          "text": "Imported design handoff for the station UI"
+        },
+        {
+          "date": "2026-06-16",
+          "text": "Scaffolded front end, back end and station view"
+        }
+      ]
+    },
+    {
+      "id": "grimoire-passport",
+      "name": "Grimoire",
+      "desc": "A gamified learning app where subjects are stations that stamp your passport; FastAPI + PixiJS.",
+      "status": "Abandoned",
+      "note": "Idle since May 2026; the planned AI quiz phase never started.",
+      "started": "May 2026",
+      "tags": [
+        "fastapi",
+        "react",
+        "pixijs",
+        "postgresql"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Monorepo, FastAPI and React",
+          "done": true
+        },
+        {
+          "title": "PixiJS pixel canvas",
+          "done": true
+        },
+        {
+          "title": "Pomodoro and knowledge graph",
+          "done": true
+        },
+        {
+          "title": "PDF proof-of-learning export",
+          "done": true
+        },
+        {
+          "title": "Tests, migrations and production auth",
+          "done": true
+        },
+        {
+          "title": "AI quiz (bring your own key)",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-05-08",
+          "text": "Integrity and completion gate (phase 13)"
+        },
+        {
+          "date": "2026-05-04",
+          "text": "Started the monorepo build"
+        }
+      ]
+    },
+    {
+      "id": "visualiod",
+      "name": "Visualiod",
+      "desc": "A GPU audio visualizer that reacts to system audio with warp feedback and four modes.",
+      "status": "Done",
+      "started": "Apr 2026",
+      "tags": [
+        "python",
+        "opengl",
+        "audio"
+      ],
+      "repo": "",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "System audio capture",
+          "done": true
+        },
+        {
+          "title": "FFT spectrum bars",
+          "done": true
+        },
+        {
+          "title": "ModernGL warp feedback",
+          "done": true
+        },
+        {
+          "title": "Four switchable modes",
+          "done": true
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-04-22",
+          "text": "Added warp feedback and switchable modes"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "First audio-reactive version"
+        }
+      ]
+    },
+    {
+      "id": "grimoire-vault",
+      "name": "Grimoire Vault",
+      "desc": "An Obsidian vault template for CS students with Templater automation and an AI Q&A helper.",
+      "status": "Abandoned",
+      "note": "Replaced by the second-brain vault in June 2026.",
+      "started": "Apr 2026",
+      "tags": [
+        "obsidian",
+        "templater",
+        "python"
+      ],
+      "repo": "https://github.com/rfldn0/grimoire",
+      "demo": "",
+      "milestones": [
+        {
+          "title": "Vault structure and plugins",
+          "done": true
+        },
+        {
+          "title": "Templater templates",
+          "done": true
+        },
+        {
+          "title": "AI Q&A helper script",
+          "done": true
+        },
+        {
+          "title": "Finish AI configuration",
+          "done": false
+        }
+      ],
+      "log": [
+        {
+          "date": "2026-04-06",
+          "text": "Added the AI helper and requirements"
+        },
+        {
+          "date": "2026-04-04",
+          "text": "Templater templates and README"
+        },
+        {
+          "date": "2026-04-01",
+          "text": "First commit"
+        }
+      ]
+    }
+  ]
+}

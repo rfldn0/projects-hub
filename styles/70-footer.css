@@ -1,0 +1,11 @@
+/* ── Footer ────────────────────────────────── */
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 20px var(--gutter);
+  border-top: 1px solid var(--rule);
+  font: 400 12px var(--mono);
+  color: var(--muted);
+}

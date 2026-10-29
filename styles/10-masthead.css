@@ -1,0 +1,23 @@
+/* ── Masthead ─────────────────────────────── */
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 16px var(--gutter);
+  border-bottom: 1px solid var(--rule);
+}
+.brand { display: flex; align-items: center; gap: 12px; color: var(--ink); font: 600 19px/1 var(--serif); letter-spacing: .02em; }
+.seal {
+  width: 38px; height: 38px;
+  display: grid; place-items: center;
+  background: var(--seal); color: var(--on-dark);
+  font: 900 19px var(--serif);
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 3px var(--seal);
+}
+.nav { display: flex; gap: 4px; font-size: 15px; }
+.nav a { padding: 10px 12px; color: var(--muted); border-bottom: 2px solid transparent; }
+.nav a:hover { color: var(--ink); }
+.nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--seal); }

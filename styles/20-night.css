@@ -1,0 +1,26 @@
+/* ── Night bands (home hero, log header) ──── */
+.night { background: var(--night); color: var(--on-dark); margin-bottom: 24px; }
+.night-art {
+  aspect-ratio: 16 / 7;
+  max-height: 520px;
+  width: 100%;
+  background: var(--night) 70% 55% / cover no-repeat;
+}
+.night-art--drawn {
+  background-image:
+    radial-gradient(circle at 70% 48%, #d84a3e 0 15%, var(--seal) 17%, rgba(184, 50, 42, .25) 19%, transparent 30%),
+    linear-gradient(transparent 78%, #000 78%);
+}
+.night-art--log { aspect-ratio: 16 / 5; max-height: 360px; background-position: 50% 40%; }
+.night-copy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px 40px;
+  padding: clamp(24px, 4vw, 44px) var(--gutter) clamp(28px, 4vw, 48px);
+  border-top: 2px solid var(--seal);
+}
+.night h1 { margin-top: 12px; font: 600 clamp(34px, 5.6vw, 68px)/1.05 var(--serif); letter-spacing: -.01em; text-wrap: balance; }
+.night p { max-width: 380px; font-size: clamp(15px, 1.6vw, 17px); line-height: 1.6; color: var(--night-text); text-wrap: pretty; }
+.eyebrow { font: 500 12px var(--mono); letter-spacing: .16em; text-transform: uppercase; color: #d8cfbf; }

@@ -1,0 +1,16 @@
+{
+  "site": { "owner": "Your Name", "github": "https://github.com/", "updated": "2026-10-28" },
+  "projects": [
+    { "id": "inkstone", "name": "Inkstone", "desc": "A quiet markdown notebook that lives in the browser.", "status": "Active", "started": "Mar 2026", "tags": ["web", "js"], "repo": "https://github.com/", "demo": "",
+      "milestones": [{"title":"Editor core","done":true},{"title":"Local storage","done":true},{"title":"Search","done":true},{"title":"Themes","done":true},{"title":"Export .md","done":true},{"title":"Sync"},{"title":"Mobile layout"}],
+      "log": [{"date":"2026-10-27","text":"Shipped search v0.3"},{"date":"2026-10-22","text":"Started sync prototype"}] },
+    { "id": "lantern", "name": "Lantern", "desc": "A tiny command-line tool for batch renaming files.", "status": "Postponed", "note": "Paused for exams.", "started": "Jun 2026", "tags": ["cli", "rust"],
+      "milestones": [{"title":"Spec","done":true},{"title":"Parser"},{"title":"Rename engine"}],
+      "log": [{"date":"2026-10-08","text":"Paused for exams <b>"},{"date":"2025-12-30","text":"Wrote spec"}] },
+    { "id": "old-bot", "name": "Old Bot", "desc": "A chat bot experiment.", "status": "Abandoned", "note": "Superseded.", "started": "Jan 2025", "repo": "javascript:alert(1)",
+      "milestones": [], "log": [] },
+    { "id": "seal", "name": "Seal", "desc": "This site.", "status": "Done", "started": "Oct 2026", "tags": ["rust"],
+      "milestones": [{"title":"Wireframes","done":true},{"title":"Deploy","done":true}],
+      "log": [{"date":"2026-10-28","text":"Deployed via static.yml"}] }
+  ]
+}
